@@ -11,7 +11,7 @@ import SwiftUI
 struct StrainsAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

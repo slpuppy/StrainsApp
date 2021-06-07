@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7520B35B266148210069F05D /* AddStrainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7520B35A266148210069F05D /* AddStrainView.swift */; };
+		7534DB95266135A100E427DA /* ListSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7534DB94266135A100E427DA /* ListSectionView.swift */; };
+		753623C92664643C0018BB19 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753623C82664643C0018BB19 /* MainView.swift */; };
+		753623CB266464880018BB19 /* MyStrainsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753623CA266464880018BB19 /* MyStrainsView.swift */; };
+		75D09176266D9CB90091A098 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D09175266D9CB90091A098 /* Camera.swift */; };
+		75D0917A266D9DC70091A098 /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D09179266D9DC70091A098 /* AddPhotoView.swift */; };
+		75D0917C266D9F510091A098 /* AddImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D0917B266D9F510091A098 /* AddImageView.swift */; };
 		75E76BD5266113020087FCA7 /* StrainsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E76BD4266113020087FCA7 /* StrainsAppApp.swift */; };
-		75E76BD7266113020087FCA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E76BD6266113020087FCA7 /* ContentView.swift */; };
 		75E76BD9266113040087FCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E76BD8266113040087FCA7 /* Assets.xcassets */; };
 		75E76BDC266113040087FCA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E76BDB266113040087FCA7 /* Preview Assets.xcassets */; };
+		75E76BE4266113270087FCA7 /* Strain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E76BE3266113270087FCA7 /* Strain.swift */; };
+		75E76BE6266115560087FCA7 /* StrainDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E76BE5266115560087FCA7 /* StrainDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7520B35A266148210069F05D /* AddStrainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrainView.swift; sourceTree = "<group>"; };
+		7534DB94266135A100E427DA /* ListSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSectionView.swift; sourceTree = "<group>"; };
+		753623C82664643C0018BB19 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		753623CA266464880018BB19 /* MyStrainsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStrainsView.swift; sourceTree = "<group>"; };
+		75D09175266D9CB90091A098 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		75D09179266D9DC70091A098 /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
+		75D0917B266D9F510091A098 /* AddImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageView.swift; sourceTree = "<group>"; };
 		75E76BD1266113020087FCA7 /* StrainsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrainsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E76BD4266113020087FCA7 /* StrainsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrainsAppApp.swift; sourceTree = "<group>"; };
-		75E76BD6266113020087FCA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75E76BD8266113040087FCA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75E76BDB266113040087FCA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75E76BDD266113040087FCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E76BE3266113270087FCA7 /* Strain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strain.swift; sourceTree = "<group>"; };
+		75E76BE5266115560087FCA7 /* StrainDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrainDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7534DB932661357A00E427DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				753623C82664643C0018BB19 /* MainView.swift */,
+				753623CD26646ADC0018BB19 /* MyStrainsViews */,
+				753623CE26646AF70018BB19 /* AddStrainView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		753623CC26646ABD0018BB19 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				75E76BE3266113270087FCA7 /* Strain.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		753623CD26646ADC0018BB19 /* MyStrainsViews */ = {
+			isa = PBXGroup;
+			children = (
+				7534DB94266135A100E427DA /* ListSectionView.swift */,
+				753623CA266464880018BB19 /* MyStrainsView.swift */,
+				75E76BE5266115560087FCA7 /* StrainDetail.swift */,
+			);
+			path = MyStrainsViews;
+			sourceTree = "<group>";
+		};
+		753623CE26646AF70018BB19 /* AddStrainView */ = {
+			isa = PBXGroup;
+			children = (
+				75D0917B266D9F510091A098 /* AddImageView.swift */,
+				7520B35A266148210069F05D /* AddStrainView.swift */,
+			);
+			path = AddStrainView;
+			sourceTree = "<group>";
+		};
 		75E76BC8266113020087FCA7 = {
 			isa = PBXGroup;
 			children = (
@@ -53,10 +106,13 @@
 			isa = PBXGroup;
 			children = (
 				75E76BD4266113020087FCA7 /* StrainsAppApp.swift */,
-				75E76BD6266113020087FCA7 /* ContentView.swift */,
+				7534DB932661357A00E427DA /* Views */,
+				753623CC26646ABD0018BB19 /* ViewModels */,
 				75E76BD8266113040087FCA7 /* Assets.xcassets */,
 				75E76BDD266113040087FCA7 /* Info.plist */,
 				75E76BDA266113040087FCA7 /* Preview Content */,
+				75D09175266D9CB90091A098 /* Camera.swift */,
+				75D09179266D9DC70091A098 /* AddPhotoView.swift */,
 			);
 			path = StrainsApp;
 			sourceTree = "<group>";
@@ -138,8 +194,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75E76BD7266113020087FCA7 /* ContentView.swift in Sources */,
+				75D09176266D9CB90091A098 /* Camera.swift in Sources */,
+				75E76BE6266115560087FCA7 /* StrainDetail.swift in Sources */,
+				75D0917A266D9DC70091A098 /* AddPhotoView.swift in Sources */,
+				753623C92664643C0018BB19 /* MainView.swift in Sources */,
+				75E76BE4266113270087FCA7 /* Strain.swift in Sources */,
+				7520B35B266148210069F05D /* AddStrainView.swift in Sources */,
+				753623CB266464880018BB19 /* MyStrainsView.swift in Sources */,
 				75E76BD5266113020087FCA7 /* StrainsAppApp.swift in Sources */,
+				75D0917C266D9F510091A098 /* AddImageView.swift in Sources */,
+				7534DB95266135A100E427DA /* ListSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +333,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"StrainsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = C7K95G5W2H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = StrainsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"StrainsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = C7K95G5W2H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = StrainsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
